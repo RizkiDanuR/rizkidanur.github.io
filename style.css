@@ -5,3 +5,14 @@
 #gallery {
   background-color: #3a3a3a;
 }
+.dropdown-item {
+  /* this will apply to inner UL, adapt to your desired selector */
+  -webkit-transition: height 0.3s ease-in-out;
+  -o-transition: height 0.3s ease-in-out;
+  -moz-transition: height 0.3s ease-in-out;
+  transition: height 0.3s ease-in-out;
+}
+#contact ul li {
+  display: inline-block;
+  padding: 5px;
+}
